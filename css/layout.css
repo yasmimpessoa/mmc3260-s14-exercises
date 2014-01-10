@@ -1,0 +1,56 @@
+/* This is the syntax for a CSS comment. */
+
+/* Typically you put all of your general element styles at the top. */
+
+body {
+	background-color: #eeeeee;
+}
+
+h1 {
+	color: #111111;
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+img {
+
+}
+
+
+/* Container or module styles probably come next. */
+
+header {
+
+}
+
+nav {
+
+}
+
+nav a {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+footer {
+
+}
+
+/* Class and ID styles come last because they are the most specific. */
+
+#copyright {
+
+}
