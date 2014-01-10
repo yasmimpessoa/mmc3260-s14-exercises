@@ -5,13 +5,17 @@ writing code by hand, that doesn't mean you won't have a ton of [tools to help y
 
 ## Lessons for MMC3260
 
+### Setup GitHub
+
+(recording video during Week 2 labs)
+
+### How to submit exercises
+
+(recording video during Week 2 labs)
+
 ### Setup WordPress
 
 https://vimeo.com/album/60951/video/72794857
-
-### Setup GitHub
-
-https://vimeo.com/album/60951/video/72869745
 
 ### (optional) Git from the command line
 
@@ -147,34 +151,32 @@ Docs: https://help.github.com/articles/setting-up-a-custom-domain-with-pages
 
 ## Assignments for MMC3260
 
-#### Due August 30: Set-up your Wordpress blog and Github account
+#### Due January 17: Set-up your Wordpress blog and Github account
 
-#### Due September 13: Ex1 HTML quick fix
+#### Due January 31: Ex1 HTML quick fix
 
 Fix any incorrect tag syntax or mismatched tags in 1.html-quick-fix.html
 
 Use the W3C validator: http://validator.w3.org/#validate_by_input
 
-#### Due September 20: Ex2 HTML links and images
+#### Due February 7: Ex2 HTML links and images
 
 Fix all broken absolute and relative URLs used for links and images.
 
-#### Due September 27: Ex3HTML wireframe
+#### Due February 21: Ex3 HTML wireframe
 
-#### Due October 17: Personal website first draft
+#### Due March 7: Personal website first draft
 
-#### Due November 12: Ex4 CSS typography
+#### Due March 14: Ex4 CSS typography
 
 * Set h1, h2 and p styles for desktop
 * Override those styles for phone width
 
-#### Due November 21: Ex5 CSS selectors (6:43)
+#### Due March 21: Ex5 CSS selectors (6:43)
 
-https://vimeo.com/79540500
-
-* Fork https://github.com/ufjschool/www.ufspj.com
-* Make useful additions to `ufspj.css` though the use of at least two selectors: descendent, adjacent, id or class.
+* Fork TBD
+* Make useful additions to `style.css` though the use of at least two selectors: descendent, adjacent, id or class.
 * Create a pull request
-* Confirm your pull request is at https://github.com/ufjschool/www.ufspj.com/pulls
+* Confirm your pull request at URL TBD
 
-#### Due December 3: Personal website second draft
+#### Due ?: Personal website second draft
