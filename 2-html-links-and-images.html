@@ -11,20 +11,27 @@
         <!-- This is an HTML comment and will not be displayed. -->
         <h1>HTML links and images</h1>
         
-        <!-- Use comments to remind yourself of what you did and why. -->
+        <!-- Use comments to remind yourself of what you did and why. I validated the first link adding the number 1, so it could read the quick fix html file and open other page. I also validated the second html my adding a http that works, once the first http did not open a correct web page. -->
         <h2>Links</h2>
-        <p><em>Relative links</em> go to another page within your same site. For example, we can open <a href="-html-quick-fix.html" target="_blank">the previous exercise</a> in a new tab. Typically you <strong>do not</strong> want to open links in new tabs, but we have to in this example because the other page doesn't have a link to get back here.</p>
-        <p><em>Absolute links</em> go to another site. Remember to always <a href="http//validator.w3.org/#validate_by_input" target="_blank">validate your HTML</a> early and often to find typos and syntax errors.</p>
+        
+        <p><em>Relative links</em> go to another page within your same site. For example, we can open <a href="1-html-quick-fix.html" target="_blank">the previous exercise</a> in a new tab. Typically you <strong>do not</strong> want to open links in new tabs, but we have to in this example because the other page doesn't have a link to get back here.</p>
+        
+        <p><em>Absolute links</em> go to another site. Remember to always <a href="http://validator.w3.org/" target="_blank">validate your HTML</a> early and often to find typos and syntax errors.</p>
+        
         <p>Notice the inclusion or exclusion of `http://` in the anchor element's href attribute. The href attribute is required. The target attribute is optional and defaults to opening links in the current tab.</p>
         <p>A complete HTML <em>tag</em> is comprised of a one <em>element</em> and any optional <em>attribute/value pairs</em>.</p>
 
-        <!-- Tabs and linebreaks are ignored, so used them to make your code more readable.-->
+        <!-- Tabs and linebreaks are ignored, so used them to make your code more readable. The first image link was missing the http://, so I just had to add that to work. The second was missing the name .gif, so I wrote that and the computer found the gif. The third was missing the folder specification. Once I added /img, it knew where to find the picture - inside the folder called img.-->
         <h2>Images</h2>
+        
         <p>As with links, we can have absolute or relative images. This is due to how we hook pages to images or other pages. We'd more formally describe the URL (uniform resource locator) as being absolute or relative.</p>
-        <p>Here's an image loaded with an absolute URL: <img src="media0.giphy.com/media/LeYFkniJST8wo/original.gif" width="200" title="thumb's up" alt="thumb's up" /></p>
+        <p>Here's an image loaded with an absolute URL: 
+            <img src="http://media0.giphy.com/media/LeYFkniJST8wo/original.gif" width="200" title="thumb's up" alt="thumb's up" /></p>
+        
         <p>Referencing images on other websites does have ethical and legal implications that will be discussed in lecture. The same issues apply to downloading those images. Be sure you have permission to use the work of others.</p>
-        <p>Now let's display in image that is relative. Specifically this file is in the same folder as this HTML document: <img src="gotitdude.jpg" width="200" title="you got it, dude" alt="you got it, dude" /></p>
-        <p>For cleanliness, you'll always have a folder dedicated for your images. This is really the test for you to understand how relative URLs work. The <em>src</em> attribute value needs to tell the current page to go into another folder and find the image. This is done by providing the folder name and a forward-slash to go into that directory: <img src="images/yay.gif" width="200" title="yay" alt="yay" /></p>
+        <p>Now let's display in image that is relative. Specifically this file is in the same folder as this HTML document: <img src="gotitdude.gif" width="200" title="you got it, dude" alt="you got it, dude" /></p>
+        
+        <p>For cleanliness, you'll always have a folder dedicated for your images. This is really the test for you to understand how relative URLs work. The <em>src</em> attribute value needs to tell the current page to go into another folder and find the image. This is done by providing the folder name and a forward-slash to go into that directory: <img src="img/yay.gif" width="200" title="yay" alt="yay" /></p>
 
     </body>
 
