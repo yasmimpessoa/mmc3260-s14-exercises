@@ -28,6 +28,8 @@ img {
 
 header {
     height:100px;
+    margin-top:12px;
+    color:#000000;
 }
 
 nav {
@@ -40,11 +42,34 @@ nav a {
     text-decoration: none;
 }
 
+header a:link {
+    color:#000000
+    text-decoration: none;
+}
+header a: visited {
+    color: #000000;
+    text-decoration: none;
+}
+header a:hover {
+    color: #c0c0c0;
+    text-decoration:none;
+}
+header a:active {
+    text-decoration:none;
+}
+header a:focus {
+}
+
 section {
 
 }
 
 aside {
+
+}
+
+article a:hover {
+    color:#c0c0c0
 
 }
 
